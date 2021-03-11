@@ -9,9 +9,9 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK Server deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Playbooks file may be used to install only certain pieces of it, such as Filebeat.
 
-[Ansible_config.yml:](Playbooks/Ansible_config.yml)
-[Filebeat.yml:](Playbooks/Filebeat.yml)
-[Metricbeat.yml:](Playbooks/Metricbeat.yml) 
+[Ansible_config.yml](Playbooks/Ansible_config.yml)
+[Filebeat.yml](Playbooks/Filebeat.yml)
+[Metricbeat.yml](Playbooks/Metricbeat.yml) 
 
 This document contains the following details:
 
