@@ -25,7 +25,7 @@ This document contains the following details:
  
        -Machines Being Monitored
   
--How to Use the Ansible Build
+-How to use the Ansible Build
 
 -Commands utilized throughout Project 1 within the Terminal 
 
