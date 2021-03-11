@@ -102,7 +102,7 @@ In order to use the playbooks, you will need to have an Ansible control node alr
 
 SSH into the control node and follow the steps below for Filebeat and Metricbeat playbooks:
 
-Filebeat:
+####Filebeat:
 
 -Copy the filebeat_config.yml file to /etc/ansible/files.
 
@@ -110,7 +110,7 @@ Filebeat:
 
 -Run the playbook and navigate to the ELK Servers IP:5601 to check that the installation worked as expected.
 
-Metricbeat:
+####Metricbeat:
 
 -Copy the metricbeat_config.yml file to /etc/ansible/files.
 
