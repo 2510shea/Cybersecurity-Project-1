@@ -1,5 +1,6 @@
 # Cybersecurity-Project-1
 Week 13 Project for 24 Week Cybersecurity Bootcamp
+
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
@@ -8,9 +9,9 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK Server deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Playbooks file may be used to install only certain pieces of it, such as Filebeat.
 
-![TODO:](Playbooks/Ansible_config.yml)
-![TODO:](Playbooks/Filebeat.yml)
-![TODO:](Playbooks/Metricbeat.yml) 
+[Ansible_config.yml:](Playbooks/Ansible_config.yml)
+[Filebeat.yml:](Playbooks/Filebeat.yml)
+[Metricbeat.yml:](Playbooks/Metricbeat.yml) 
 
 This document contains the following details:
 
@@ -70,7 +71,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Additional_Documents/Creation_of_ELK_Server_via_Azure.pdf)
+[TODO: Update the path with the name of your screenshot of docker ps output](Additional_Documents/Creation_of_ELK_Server_via_Azure.pdf)
 
 ### Target Machines & Beats
 
@@ -100,10 +101,10 @@ SSH into the control node and follow the steps below for Filebeat and Metricbeat
 
 
 - The playbook is the elk.yml and it goes to etc/ansible
-- The etc/ansible/hosts is where you add the IP address of the machines you want to add Elk Server and Filebeat to and will be installed only on the machines you request them to be on. 
+- The etc/ansible/hosts, webeservers, is where you add the IP address of the machines you wish to install Filebeat and Metricbeat on within the Elk Server from elk.yml. If you review the attached Filebeat.yml and Metricbeat.yml images above you will see the hosts are the webservers. 
 
 You will navigate to http://20.55.105.58:5601 in order to check that the ELK server is running. 
-![TODO:](Images/Kibana_HTTP_Address)
+[Kibana HTTP Address:](Images/Kibana_HTTP_Address)
 
 As a bonus I have provided a list of all the commands utilized for Project 1 ELK Server:
-![TODO:](Commands_Utilied/Creation-Deployment_for_ELK_Server.pdf)
+[Commands Utilized Project 1:](Commands_Utilied/Creation-Deployment_for_ELK_Server.pdf)
