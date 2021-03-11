@@ -4,7 +4,7 @@ Week 13 Project for 24 Week Cybersecurity Bootcamp
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO:](Images/Project_1_Network_Diagram_2.0.pdf)
+[Network Diagram](Images/Project_1_Network_Diagram_2.0.pdf)
 
 These files have been tested and used to generate a live ELK Server deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Playbooks file may be used to install only certain pieces of it, such as Filebeat.
 
