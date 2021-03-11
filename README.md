@@ -21,9 +21,9 @@ This document contains the following details:
 
 -ELK Configuration
 
-  -Beats in Use
+       -Beats in Use
  
-  -Machines Being Monitored
+       -Machines Being Monitored
   
 -How to Use the Ansible Build
 
@@ -70,8 +70,11 @@ Ansible was used to automate configuration of the ELK machine; no configuration 
 The playbook implements the following tasks:
 
 -Installation of a docker.io
--Installation of pip3 
+
+-Installation of pip3
+
 -Download, configure and launch the ELK docker container via the Virtual Machine in MS Azure
+
 -Established and started the dvwa and published the ports 
 
 
@@ -84,11 +87,13 @@ The following screenshot displays the result of running `docker ps` after succes
 This ELK server is configured to monitor the following machines:
 
 -Web-1 - 10.0.0.5
+
 -Web-2 - 10.0.0.6
 
 Both Filebeat and Metricbeat have been installed on all the active machines. These Beats allow us to collect the following information from each machine:
 
 -Filebeat will collect the log files on the hosts then transfer the logs to the ELK Server where they can be opened and inspected via Kibana. 
+
 -Metricbeat will collect the necessary metrics and statistical data requested then transfer the information to the ELK Server to be opened and inspected via Kibana. 
 
 ### Using the Playbooks
@@ -97,16 +102,25 @@ In order to use the playbooks, you will need to have an Ansible control node alr
 
 SSH into the control node and follow the steps below for Filebeat and Metricbeat playbooks:
 
+Filebeat:
+
 -Copy the filebeat_config.yml file to /etc/ansible/files.
+
 -Update the config file to include the private IP of the ELK Server to the Elasticsearch and Kibana sections of the config file. 
+
 -Run the playbook and navigate to the ELK Servers IP:5601 to check that the installation worked as expected.
 
+Metricbeat:
+
 -Copy the metricbeat_config.yml file to /etc/ansible/files.
+
 -Update the config file to include the private IP of the ELK Server to the Elasticsearch and Kibana sections of the config file. 
+
 -Run the playbook and navigate to the ELK Servers IP:5601 to check that the installation worked as expected.
 
 
 - The playbook is the elk.yml and it goes to etc/ansible
+
 - The etc/ansible/hosts, webeservers, is where you add the IP address of the machines you wish to install Filebeat and Metricbeat on within the Elk Server from elk.yml. If you review the attached Filebeat.yml and Metricbeat.yml images above you will see the hosts are the webservers. 
 
 You will navigate to http://20.55.105.58:5601 in order to check that the ELK server is running. 
