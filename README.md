@@ -127,4 +127,4 @@ You will navigate to http://20.55.105.58:5601 in order to check that the ELK ser
 [Kibana HTTP Address](https://github.com/2510shea/Cybersecurity-Project-1/blob/main/Images/Kibana%20HTTP%20Address.png)
 
 As a bonus I have provided a list of all the commands utilized for Project 1 ELK Server:
-[Commands Utilized Project 1](Commands_Utilied/Creation-Deployment_for_ELK_Server.pdf)
+[Commands Utilized Project 1](https://github.com/2510shea/Cybersecurity-Project-1/blob/main/Commands%20Utilized/Project%201%20Commands%20Utilized%20in%20Terminal.pdf)
