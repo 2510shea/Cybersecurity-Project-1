@@ -80,7 +80,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[Creation of the Elk Server via Azure](Additional_Documents/Creation_of_ELK_Server_via_Azure.pdf)
+[Creation of the Elk Server via Azure](https://github.com/2510shea/Cybersecurity-Project-1/blob/main/Additional%20Documents/Creation%20of%20ELK%20Server%20via%20Azure.pdf)
 
 ### Target Machines & Beats
 
