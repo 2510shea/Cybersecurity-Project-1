@@ -123,7 +123,7 @@ Metricbeat:
 
 - The etc/ansible/hosts, webeservers, is where you add the IP address of the machines you wish to install Filebeat and Metricbeat on within the Elk Server from elk.yml. If you review the attached Filebeat.yml and Metricbeat.yml images above you will see the hosts are the webservers. 
 
-You will navigate to http://20.55.105.58:5601 in order to check that the ELK server is running. 
+You will navigate to my public Kibana IP address with port 5601 in order to check that the ELK server is running. 
 [Kibana HTTP Address](https://github.com/2510shea/Cybersecurity-Project-1/blob/main/Images/Kibana%20HTTP%20Address.png)
 
 As a bonus I have provided a list of all the commands utilized for Project 1 ELK Server:
