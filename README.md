@@ -1,5 +1,5 @@
 # Cybersecurity-Project-1
-Week 13 Project for 24 Week Cybersecurity Bootcamp
+Week 13 Project 1 for 24 Week Cybersecurity Bootcamp
 
 ## Automated ELK Stack Deployment
 
